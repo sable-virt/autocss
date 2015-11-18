@@ -1,0 +1,22 @@
+{
+  "name": "autocss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "frontainer",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.1.0",
+    "css-mqpacker": "^4.0.0",
+    "cssnano": "^3.3.2",
+    "doiuse": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-csso": "^1.0.1",
+    "gulp-postcss": "^6.0.1",
+    "gulp-sass": "^2.1.0"
+  },
+  "dependencies": {}
+}

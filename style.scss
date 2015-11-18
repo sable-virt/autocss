@@ -1,0 +1,31 @@
+$font-size: 30px;
+$link-color: #ff290e;
+
+a {
+    &:hover {
+        transform: scale(1.2);
+        filter: blur(10px);
+    }
+}
+
+.test {
+    .test-heading {
+        font-size: $font-size;
+        font-weight: bold;
+    }
+    .test-content {
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .test {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .test2 {
+        width: 200px;
+    }
+}
